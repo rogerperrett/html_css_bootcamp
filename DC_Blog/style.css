@@ -1,0 +1,45 @@
+header > * {
+    display: inline-block;
+
+}
+
+a:link {
+    text-decoration: none;
+    margin: 10px;
+}
+div {
+    box-align: center;
+    text-align: left;
+    width: 800px;
+    margin: 0px 200px;
+}
+
+.title {
+    text-align: center;
+}
+
+ul.menu {
+    list-style: none;
+}
+ul.menu li {
+    display: inline;
+}
+ul.footer {
+    list-style: none;
+    text-align: left;
+}
+ul.footer li {
+    display: inline;
+}
+
+
+.button {
+    background-color: rgb(63, 132, 197); /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
