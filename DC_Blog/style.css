@@ -1,45 +1,62 @@
-header > * {
-    display: inline-block;
-
+header>* {
+	margin: 0px 0px 100px 0px;
+	display: inline-block;
+	width: 80%;
+	font-family: Arial, Helvetica, sans-serif;
 }
-
-a:link {
-    text-decoration: none;
-    margin: 10px;
+.logo {
+	float: left;
+	font-size: 40px;
+	/* width: 400px; */
+	margin: auto;
+	width: 30%;
 }
-div {
-    box-align: center;
-    text-align: left;
-    width: 800px;
-    margin: 0px 200px;
-}
-
-.title {
-    text-align: center;
-}
-
 ul.menu {
-    list-style: none;
+	list-style: none;
+	float: right;
+	width: 30%;
 }
 ul.menu li {
-    display: inline;
+	display: inline;
+	box-align: right;
 }
-ul.footer {
-    list-style: none;
-    text-align: left;
+a:link {
+	text-decoration: none;
+	margin: 10px;
+}
+main {
+	margin: auto;
+	text-align: left;
+	width: 50%;
+	clear: both;
+}
+.title {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.date {
+	text-align: center;
+	color: gray;
+	font-size: 14px;
+}
+.button {
+	background-color: rgb(63, 132, 197);
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 4px;
+}
+footer {
+	margin: auto;
+	width: 50%;
 }
 ul.footer li {
-    display: inline;
+	display: inline;
+	font-family: Arial, Helvetica, sans-serif;
 }
-
-
-.button {
-    background-color: rgb(63, 132, 197); /* Green */
-    border: none;
-    color: white;
-    padding: 5px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+.copyright {
+	text-align: center;
 }
