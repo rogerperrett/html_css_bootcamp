@@ -1,0 +1,93 @@
+.navbar {
+	height: 100%;
+	float: left;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	background-color: #555555;
+}
+.navbar a {
+	color: rgb(79, 79, 80);
+	font-weight: bold;
+	text-decoration: none;
+	padding: 6px 6px 6px 32px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #ABACAC;
+	display: block;
+}
+.navbar a:hover {
+	color: #f1f1f1;
+}
+menu {
+	padding: 0px;
+}
+input {
+	background-color: #555555;
+	border-color: #ABACAC;
+	border-style: solid;
+}
+header {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul.menu {
+	padding: 5px;
+}
+ul.menu li {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px 0px;
+}
+footer {
+	color: #ABACAC;
+	position: relative;
+	text-align: center;
+	bottom: -500px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #555555;
+}
+.welcome {
+	color: #ABACAC;
+}
+.logo {
+	color: black;
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+main {
+	margin-top: 20px;
+	margin-left: 250px;
+	font-family: Arial, Helvetica, sans-serif;
+	float: right;
+}
+blockquote {
+	background: #eeebeb;
+    border-left: 10px solid #ccc;
+    color: #ABACAC;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+blockquote:after {
+	color: #ccc;
+	content: close-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
