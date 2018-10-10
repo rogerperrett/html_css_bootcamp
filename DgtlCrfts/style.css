@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+}
+
+ul.menu li {
+    display: inline;
+    padding: 10px;
+    float: right;
+}
+.background {
+    width: 100%;
+    background-image: url(img/atl.png);
+}
+main {
+    display: block;
+    padding: 0% 20%;
+}
+.body-img {
+    width: 33%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+ul.menu a {
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+}
